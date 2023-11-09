@@ -1,8 +1,19 @@
-# botGPT
-Um bot para usaro chat gpt em seu discord utilizando a biblioteca openai e discord
+# Chat GPT Discord Bot
 
-Foi feito utilizando python e api do openai.
+## Descrição do Projeto
 
-coloque entre bot.run( '  ' )o seu token do discord.
+Este é um bot Discord que utiliza a biblioteca OpenAI para fornecer recursos de chat alimentados por inteligência artificial. O bot permite interações em tempo real com o modelo GPT-3.5.
 
-coloque entre ('   ') em openai.api.key sua chave do gpt
+## Como Usar
+
+1. Clone o repositório:
+
+   git clone https://github.com/Leo12th/botGPT.git
+
+# Instale as dependencias como Discord e Openai
+
+pip install discord.py openai
+
+# Troque as configuraçoes pelas suas.
+TOKEN_DISCORD = 'seu-token-do-discord'
+API_KEY_OPENAI = 'Sua chave do GPT'
